@@ -1,0 +1,11 @@
+npm install -g truffle
+npm install truffle-hdwallet-provider
+
+
+truffle compile
+truffle migrate --network testnet --reset
+
+FlattenedCrowSwapERC20
+FlattenedCrowSwapPair
+FlattenedCrowSwapFactory
+
